@@ -1,0 +1,401 @@
+
+#seller-profile-image{
+
+    height : 80px;
+    width : 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border : 0px solid rgba(225 , 225 , 225 , .3);
+    line-height: 20px;
+}
+#view_more_user_ads{
+    color : blue;
+}
+.ad-page-category-links{
+    color : rgba(0 , 0 , 0 , .54);
+}
+#ad-page-category-links-container{
+    position: relative;
+    top: -15px;
+}
+#ad-refresh-icon{
+    font-size: 15px;
+}
+#carousel-inner{
+    }
+
+.product-condition{
+    font-weight: normal;
+    background-color : whitesmoke;
+    border-radius: 3px;
+    color : #4267b2;
+    font-size: 15px;
+    padding: 0px 12px;
+    border : 1px solid lightgrey;
+    width : 40px;
+}
+#product-condition:hover{
+    font-size: 13px;
+}
+.ad-poster-actions{
+    position: relative;
+    top : -1px;
+    background-color: whitesmoke;
+    color : grey;
+}
+#ad-poster-action-buttons-container{
+    display: block;
+    top : 10px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#ad-poster-join-timestamp{
+    font-weight: normal;
+}
+#gmap_canvas{
+    width: 100%;
+    height : 100%;
+}
+#contact-seller-form{
+    display: none;
+}
+
+#ad-closed-image{
+    z-index: 200;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    left : 12%;
+    top : 20px;
+}
+#ad-image-zoom-icon-container{
+
+    position: absolute;
+    z-index: 2;
+    width : 100%;
+    text-align : center;
+    height: 100%;
+
+}
+
+#ad-zoomin-icon{
+    background-color:  rgba(55,71,79,.5);
+    height : 90px;
+    width : 90px;
+    display: inline-block;
+
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top: 40%;
+}
+
+
+#ad-image-zoom-in{
+    color: #fff;
+    font-size: 30px;
+    line-height: 85px;
+
+}
+.ad-images-arrows{
+    z-index: 3;
+}
+
+#ad-updated-status{
+    position: absolute;
+    color : tomato;
+    opacity: .51;
+    font-weight: bold;
+
+    position: relative;
+    font-size: 12px;
+    left: 7px;
+    display: none;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.enlarge-image-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    z-index: 200; /* Sit on top */
+    line-height : 100%;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: auto;
+    max-width: 700px;
+    max-height: 500px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#zoomed-image-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    font-weight: bold;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #zoomed-image-caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+#close-zoom-image {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+#close-zoom-image:hover,
+#close-zoom-image:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+#ad-image-zoom-left-container{
+    float: left;
+}
+#ad-image-zoom-right-container{
+
+    right : 1%
+
+}
+#ad-image-zoom-left-container{
+
+    left : 1%;
+}
+.ad-image-zoom-foward-backward{
+    position: absolute;
+    top : 48%;
+    color : #fff;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: normal;
+    opacity: .8;
+}
+
+.ad-images-sliders{
+    max-width: 95% !important;
+    max-height: 340px !important; 
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    vertical-align: middle;
+    line-height: 100%;
+
+
+}
+
+
+.item-image{
+    border : 1px solid rgba(191 , 191 , 191 , .1);
+    background-color: #fff !important;
+    border-left : none;
+    border-right : none;
+    border-top : none;
+    height : 340px !important;
+   
+   
+}
+.ad-images-slider-containers{
+    
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+#ad-full-details{
+    padding-top : 40px;
+
+}
+.item-price{
+    position: absolute !important;
+    top : 0px !important;
+}
+#report-ad-modal-link{
+    position: relative;
+    top : 10px;
+    font-weight: 400;
+}
+#ad-report-modal-header-container{
+    border-bottom: none;
+    position: relative;
+
+
+}
+#report-item-header{
+
+    font-weight: 400;
+    font-size: 24px;
+    color : rgba(0 , 0 , 0 , .87);
+    font-family: arial, helvetica, sans-serif;
+    position: relative;
+    top : 20px;
+}
+.report-ad-radio-and-label-container{
+    position: relative;
+    left : 20px;
+}
+.report-ad-radio-and-label-container:nth-child(1) {
+    margin-top: 10px;
+}
+.report-ad-labels{
+    font-weight: normal;
+    color : rgba(0 , 0 , 0, 1);
+}
+#report-ad-comment-text{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    transition: top 0.3s linear 0s;
+    position: relative;
+    top : 30px;
+}
+
+#report-ad-comment-box:focus{
+    top: 0px;
+}
+#report-ad-comment-box{
+    height: 33px;
+    resize: none;
+    width: 100%;
+    z-index: 1;
+    border: 0;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-left-color: currentcolor;
+
+    outline: none;
+
+    overflow: hidden;
+
+    background: none;
+
+    position: relative;
+    line-height: 1.71;
+
+    font-style: normal;
+    font-weight: 400;
+    font-stretch:normal;
+    box-sizing: border-box;
+    padding: 0 0 5px;
+    transition-duration: .5s;
+    transition-property: color;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+    border-bottom: 1px solid rgba(0,0,0,.26);
+    border-bottom-color: rgba(0, 0, 0, 0.26);
+    transition-timing-function: cubic-bezier(0,1,.5,1);
+
+}
+
+#comment-number-of-text-typed-div{
+    text-align: right;
+    padding : 5px 0px;
+    font-size: 12px;
+}
+#report-ad-submit{
+    width: 100%;
+    height : 50px;
+}
+.current-image-slide{
+    border-radius: 3px;
+    padding : 4px 9px;
+    background-color : rgba(0 , 0 , 0 , .6);
+    color : #fff;
+    position: absolute;
+    z-index: 4;
+    left : 14%;
+    top : 6%;
+}
+@media only screen and (max-width:648px){
+    .current-image-slide{
+            top : 12%;
+
+    }
+}
+#ad-report-error{
+position: relative;
+    top : -7px;
+    margin-bottom: 10px;
+    color: #ff8300;
+}
+#contact-seller-error{
+    color : tomato;
+    opacity: .7;
+    top : -10px;
+    position: relative;
+}
+
+#message-seller-envelope{
+    position: relative;
+    left: -10px;
+}
+
+#hidden-seller-contact{
+    display: none;
+    
+}
+@media only screen and (max-width:420px){
+    #ad-zoomin-icon{
+        top : 40%;
+}
+    .ad-images-sliders{
+        max-width: 330px !important;
+    min-height: 340px !important; 
+   
+    }
+}

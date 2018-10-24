@@ -1,0 +1,342 @@
+.search-image-2 , .search-image-3 {
+    display: none;
+}
+#search-suggestions{
+    position: relative;
+    max-height : 220px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid lightgrey !important;
+    display: block;
+    padding-top : 12px;
+    padding-bottom: 12px;
+    top : -20px;
+}
+.search-suggestion-texts{
+    width: 100%;
+    display: block;
+    position: relative;
+    text-indent: 2px;
+    position: relative;
+    left : 3px;
+}
+
+.search-suggestion{
+    cursor: pointer;
+    color:rgba(0 , 0 , 0 , .7); 
+    width: 100%;
+    text-indent: 12px;
+    display: block;
+    margin-bottom: 1px;
+    font-size: 13px;
+    padding: 3px;
+}
+.search-words {
+    
+    color : #21C1A4;
+}
+.search-suggestion:hover{
+    background-color: whitesmoke;
+    
+}
+#empty-search-text-icon{
+    position: relative;
+    top : -34px;
+    left : 95%;
+    font-size: 15px;
+    cursor : pointer;
+    
+    
+}
+
+#search-suggestions {
+    display: none;
+}
+
+#empty-search-text-warning{
+color : tomato;
+    position: relative;
+    top : -33px;
+    left : 46%;
+}
+
+#search-icon-container{
+    float: left;
+    top : 4px;
+    position: relative;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#search-text{
+   font-size: 13px;
+    padding-top: 7px;
+}
+
+
+/**** BASE ****/
+body {
+    color: #888;   
+}
+a {
+    color: #03a1d1;
+    text-decoration: none!important;
+}
+
+/**** LAYOUT ****/
+.list-inline>li {
+    padding: 0 10px 0 0;
+}
+.container-pad {
+    padding: 30px 15px;
+}
+
+
+/**** MODULE ****/
+.bgc-fff {
+    background-color: #fff!important;
+}
+.box-shad {
+    -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+}
+.brdr {
+    border: 1px solid #ededed;
+}
+
+/* Font changes */
+.fnt-smaller {
+    font-size: .9em;
+}
+.fnt-lighter {
+    color: #bbb;
+}
+
+/* Padding - Margins */
+.pad-10 {
+    padding: 10px!important;
+}
+.mrg-0 {
+    margin: 0!important;
+}
+.btm-mrg-10 {
+    margin-bottom: 10px!important;
+}
+.btm-mrg-20 {
+    margin-bottom: 20px!important;
+}
+
+/* Color  */
+.clr-535353 {
+    color: #535353;
+}
+
+
+
+
+/**** MEDIA QUERIES ****/
+@media only screen and (max-width: 991px) {
+    #property-listings .property-listing {
+        padding: 5px!important;
+    }
+    #property-listings .property-listing a {
+        margin: 0;
+    }
+    #property-listings .property-listing .media-body {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #property-listings .property-listing img {
+        max-width: 180px;
+    }
+}
+.search-ad-list-title{
+    display: block;
+    font-weight: bold;
+    color : rgba(0 , 0 , 0 , .5);
+}
+.search-list-views{
+    position: absolute;
+    top : 5px;
+    right : 22px;
+}
+
+.search-images-containers{
+    width : 120px;
+    height : 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px; 
+    }
+.search-category-list{
+    display: block ! important;
+    position: relative;
+    left : -4px;
+    margin-bottom: 5px;
+}
+.search-time-posted-list{
+    position: relative;
+    left : -4px;
+}
+
+.search-university-icon{
+    font-size: 19px;
+    position: relative;
+    left : -5px;
+}
+.search-list-university{
+    position: relative;
+    margin-top : 10px;
+    margin-bottom: 5px;
+}
+.search-category-list-icon{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 15px;
+    position: relative;
+    left: 2px;
+}
+@media only screen and (max-width:374px){
+    .search-images-containers.pull-left{
+        display: block !important;
+        width: 100%;
+        margin-left : auto;
+        margin-right : auto;
+        background-size: cover !important;
+        border : 1px solid rgba(218 , 218 , 218 , .2);
+        
+    }
+    .search-list-views{
+        color : rgba(255 , 255 , 255 , .9);
+        right : 35px !important;
+        top : 12px !important;
+               
+    }
+    
+}
+
+.search-list-time{
+    display: inline-block;
+    margin-right : 15px;
+    font-size: 15px;
+    position: relative;
+    left : 2px;
+}
+.search-result-poster-university{
+    position: relative;
+    top : -3px;
+}
+.search-list-price{
+    position: relative !important;
+    
+}
+#main-search-container{
+    margin-bottom: 25px;
+}
+
+
+#search-filter-slider{
+        cursor: pointer;
+
+        display: block;
+}
+#search-filter-icon {
+    float: left;
+    width : 25px;
+    height: 25px;
+    position: relative; 
+    top : -7px;
+}
+
+@media only screen and (max-width : 768px){
+    
+
+#search-filter-slider {
+    left : 20px;
+    
+}   
+  }
+
+
+
+#search-filters-container {
+    margin-top : 30px
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    search-images-containers.pull-left{
+        display: block;
+        width : 100%;
+            }
+}
+
+.search-filter-text#search-filter-text{
+    position: relative;
+    top : -5px;
+    left : 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color : #111111;
+    opacity: .6;
+}
+#search-filter-submit-button{
+    display: block;
+    height: 30px;
+    width : 60px;
+    left : 12px;
+    background-color : #fff;
+}
+#go-button-text{
+    position: relative;
+    top : -10px;
+    left : -10px;
+    
+}
+
+#search-filter-form-child{
+    cursor: default;
+}
+span.caret.dropdown{
+
+
+    display: none;
+}
+.row.search-filter-menus{
+    margin-right : 10px !important;
+    position : relative;
+    left : 10px;
+}
+a.search-filter-texts{
+    text-decoration: underline !important;
+  }
+.filter-close{
+    position: relative;
+    left : 66px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.filter-dropdown-menu{
+    overflow-y: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+    max-width: 300px;
+}
+.close-for-category.filter-close{
+  position: absolute;
+    left : 85%;
+    
+}
+
+.filter-close-icon-for-school.filter-close{
+    position: absolute !important;
+    left : 90%;
+}
+
+#search-filter-form {
+
+    display: none;
+}

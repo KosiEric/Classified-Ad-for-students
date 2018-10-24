@@ -1,0 +1,18 @@
+.contact-errors{
+    font-weight: normal;
+    color : tomato;
+    display: block;
+    text-align: left;
+    top : 10px;
+    position: relative;
+
+
+}
+
+#forgot-account-loading-icon{
+    display: none;
+}
+
+#email-send-error {
+    display: none;
+}

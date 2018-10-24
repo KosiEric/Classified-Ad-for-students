@@ -1,0 +1,551 @@
+
+
+a:hover , a:link , a:active{
+
+    text-decoration: none;
+}
+a::selection{
+
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* remove default arrow */
+    /* add custom arrow */
+}
+
+select::-ms-expand {
+    display: none;
+    /* hide the default arrow in ie10 and ie11 */
+}
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background-image:none\9;
+        padding: 5px\9;
+    }
+}
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+
+
+
+/* Site footer */
+
+#site-footer{
+    position: fixed;
+    bottom : 0px;
+    background: rgba(0,0,0,.09999);
+    display: block;
+    width : 100%;
+    direction: ltr;
+    color: #777;
+    width : 100%;
+    line-height: 36px;
+    margin-right: auto;
+    margin-left: auto;
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background : rgb(217, 237, 247);
+
+}
+
+#logo-image{
+
+}
+
+.loading-icons{
+    display: none;
+}
+
+.site-footer-spans{
+
+    display: inline-block;
+    box-sizing: border-box;
+    font-size : 14px;
+    font-family: Cairo;
+    font-weight : 300;
+    letter-spacing: 1.1px;
+
+}
+
+a.footer-links , a.footer-socials{
+    cursor: pointer;
+    color : #337ab7;
+    text-decoration: none;
+}
+
+a.footer-socials{
+
+    margin-left: 10px;
+}
+a.footer-links:hover{
+    color : #1e3948;
+}
+
+#site-footer .fa:hover {
+    color : #1e3948;
+}
+#logo-image{
+    top : -8px;
+    position: relative;
+}
+@media only screen and (max-width : 768px){
+    #logo-image{
+        top : -8px;
+        position: relative;
+    }
+}
+.category-icons{
+    color : #fff;
+    background-color : #21C1A4;
+    border-radius: 50%;
+    height : 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.header-category-link-text{
+    position: relative;
+    left : 5px;
+}
+body {
+    font-family: Cairo !important;
+}
+.cairo-family {
+    font-family: Cairo;
+}
+
+#header-link-sell-text{
+    margin-left: 5px
+}
+
+#ad-post-header{
+    color : #21C1A4;
+    position: relative;
+    top : -50px;
+    opacity: .4;
+
+}
+
+#country-text-container{
+    left : 5px;
+    position: relative;
+    top : 1px;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+#country-text-container{
+    color : #fff !important;;
+}
+
+a:hover , a:link , a:active{
+
+    text-decoration: none;
+}
+a::selection{
+
+}
+
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* remove default arrow */
+    /* add custom arrow */
+}
+
+select::-ms-expand {
+    display: none;
+    /* hide the default arrow in ie10 and ie11 */
+}
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background-image:none\9;
+        padding: 5px\9;
+    }
+}
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+
+
+
+/* Site footer */
+
+#site-footer{
+    position: fixed;
+    bottom : 0px;
+    background: rgba(0,0,0,.09999);
+    display: block;
+    width : 100%;
+    direction: ltr;
+    color: #777;
+    width : 100%;
+    line-height: 36px;
+    margin-right: auto;
+    margin-left: auto;
+
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background : rgb(217, 237, 247);
+
+}
+
+#logo-image{
+
+}
+
+.loading-icons{
+    display: none;
+}
+
+.site-footer-spans{
+
+    display: inline-block;
+    box-sizing: border-box;
+    font-size : 14px;
+    font-family: Cairo;
+    font-weight : 300;
+    letter-spacing: 1.1px;
+
+}
+
+a.footer-links , a.footer-socials{
+    cursor: pointer;
+    color : #337ab7;
+    text-decoration: none;
+}
+
+a.footer-socials{
+
+    margin-left: 10px;
+}
+a.footer-links:hover{
+    color : #1e3948;
+}
+
+#site-footer .fa:hover {
+    color : #1e3948;
+}
+#logo-image{
+    top : -8px;
+    position: relative;
+}
+@media only screen and (max-width : 768px){
+    #logo-image{
+        top : -8px;
+        position: relative;
+    }
+}
+.category-icons{
+    color : #fff;
+    background-color : #21C1A4;
+    border-radius: 50%;
+    height : 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.header-category-link-text{
+    position: relative;
+    left : 5px;
+}
+body {
+    font-family: Cairo !important;
+}
+.cairo-family {
+    font-family: Cairo;
+}
+
+#header-link-sell-text{
+    margin-left: 5px
+}
+
+#ad-post-header{
+    color : #21C1A4;
+    position: relative;
+    top : -50px;
+    opacity: .4;
+
+}
+
+#country-text-container{
+    left : 5px;
+    position: relative;
+    top : 1px;
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+#country-text-container{
+    color : #fff !important;;
+}
+.footer-site-details{
+    font-weight: normal !important;;
+    font-size: 13px;
+    position: relative;
+    left : 5px;
+}
+
+#login-checkbox-container{
+    display: none;
+
+}
+
+#next-loading-icon{
+    display: none;
+}
+
+#loginbox{
+
+    top : -80px;
+}
+.contact-inputs{
+    background-size : 12px 12px;
+    background-position-x: 98%;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+
+
+}
+select{
+    cursor: pointer;
+}
+#connection-lost-alert{
+    position: fixed;
+    z-index: 1;
+    width : 100%;
+    height : 80px;
+    text-align: left;
+    line-height: 80px;
+    display: none;
+}
+#email-not-verified-warning-container {
+    position: fixed;
+    top : 0px;
+    z-index: 155;
+    width: 100%;
+    height : 80px;
+
+
+}
+.ad-list-title{
+    color : grey;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 13px;
+}
+span.ad-list-description{
+    margin-right: 12px;
+    position: relative;
+    text-align: left;
+    }
+.poster-university{
+    font-weight: 600 !important; 
+}
+.contact-errors {
+    color : tomato !important;
+}
+.item-price{
+    right : 22px !important;
+}
+.poster-university{
+    font-weight: bold;
+
+}
+
+
+.ad-list-num-views{
+    position: relative;
+    bottom: 7px ;
+    font-size : 11px;
+    z-index : 3;
+    font-weight: normal !important;
+}
+.ad-list-icons{
+    font-size: 14px;
+    font-weight: normal !important;
+}
+.ad-list-condition{
+    font-weight: normal !important;
+}
+#breadcrumb-section{
+    visibility: hidden;
+    height : 10px;
+}
+.load-more-icon{
+    color : #21bfa4;
+
+    margin-left: auto;
+    margin-right : auto;
+    width : 100px;
+    cursor : pointer;
+
+}
+#ads-loading-image-container{
+    display: none;
+}
+.load-more-plus-text {
+    display: block;
+    width : 40px;
+    height : 40px;
+    border : 1px solid #21bfa4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 29px;
+}
+.load-more-text{
+    display: block;
+    border : 0px solid grey;
+
+    position: relative;
+    top : 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width : 60px;
+     margin-bottom: 100px;
+}
+
+
+#search-section{
+    z-index: 100;
+    position: relative;
+    top : -50px;
+
+}
+@media only screen and (max-width:767px) {
+
+    .load-more-icon{
+        margin-top : -40px;
+        top : -40px !important;
+    }
+    #search-section{
+        z-index: 100;
+        position: relative;
+        top : -100px;
+
+    }
+}
+
+#state-change{
+    overflow-y: auto;
+    height : 300px;
+}
+.change-text{
+    font-size: 14px;
+}
+
+#category-change-text{
+    font-size: 12px;
+    position : relative;
+    top : -px;
+    left : -6px;
+}
+
+#category-change-text > .search-category-link-text{
+    position: relative;
+    left: -6px;
+}
+.search-category-icons{
+ position: relative;
+    left : -15px;
+    line-height: 17px;
+}
+@media only screen and (min-width:992px){
+    
+    .search-category-dropdown-arrow{
+       position: absolute;
+        top : 14px;
+        display: inline-flex;
+         float: right;
+         right : 10%;
+    }
+}
+
+#search-category-dropdown{
+    height : 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#footer-students-text{
+    font-weight: bold;
+    margin-right : 5px;
+    margin-left : 3px;
+}
+#simple-footer-text-paragraph{
+    font-size: 12px;
+}
+#simple-footer-help-link{
+    text-transform: capitalize;
+}
+
+#simple-site-footer{
+    #background-color: rgba(16 , 10 , 101 , .7);
+    text-align : center !important;
+}
+#simple-footer-text-paragraph{
+    text-align: center !important;
+}
+

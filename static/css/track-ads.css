@@ -1,0 +1,88 @@
+.num-user-ads-container{
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+    color :burlywood
+}
+#user-ads-list{
+    margin-bottom: 40px;
+    margin-top:  30px;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#account-not-found{
+    padding: 30px 10px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #737373;
+    background: #fcfcfc;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+}
+
+h1 span{
+    color: #bbb;
+}
+.btn-track-ad{
+    display: block;
+    margin-top: 10px;
+}
+.inactive-ad-type.ad-type-toggle:hover{
+
+
+    background-color: #fff !important;
+
+    border: 1px solid #f1f1f1 !important;
+
+    border-bottom-color: rgb(241, 241, 241) !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+
+    border-bottom: 1px solid #ddd !important;
+
+    color: #6f6f6f !important;
+}
+
+#favorite-ads-container{
+    display: none;
+}
+#favorite-ads-load-more{
+    display: none;
+}
+@media only screen and (max-width:767px) {
+
+    #user-ads-list{
+        position: relative;
+        top : -100px;
+    }
+}
+
+#change-user-account-status-container{
+    border: 0px solid grey;
+    
+    margin-bottom : 20px !important;
+    display : block;
+    
+}
+
+#change-user-account-status-button{
+    float: right;
+}
+
+@media only screen and (max-width:767px){
+
+    #change-user-account-status-container{
+
+        position: relative;
+        display: block;
+        top : -100px;
+        margin-top: 20px;
+    }
+}
+

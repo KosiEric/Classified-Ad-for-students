@@ -1,0 +1,365 @@
+body {
+    background-color: #f8f8f8 !important;
+}
+#btn-login{
+
+    position: relative;
+    right :0;
+}
+#new-signup-button{
+    color :  rgb(92, 184, 92);
+    background-color: #fff;
+    border : 1px solid rgba(92, 184, 92 , .5);
+}
+
+.image-labels{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-right : 10px;
+    position: relative;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top : 30px;
+    border-radius: 5px;
+    background-color : rgba(220 , 220 , 220 , 0.6);
+    box-sizing: border-box;
+}
+#image1-label{
+    background-color: #dff0d8;
+    border : 1px solid rgba(115, 183, 71 , .5);
+}
+.image-labels:hover .label-camera {
+    visibility: visible;
+}
+.label-camera{
+    color : grey;
+    display: block;
+    margin-top : 2.2em;
+
+
+}
+.image-fields{
+    display: none !important;
+}
+#profile-image-label{
+    cursor: pointer;
+}
+#profile-label-container , .hovable-buttons{
+    background-color: #00A851;
+    display: block;
+    position: relative;
+    color : #fff;
+    border-radius: 5px;
+    width : 100px;
+    text-align: center;
+
+}
+#profile-label-container{
+    border : 1px solid rgba(0 ,168 , 80 , .4);
+    color : rgba(0 ,168 , 80 , .6);;
+    background-color : #fff;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: cover;
+
+    background-position: center;
+}
+#profile-label-container:hover , .hovable-buttons:hover {
+    border : 1px solid rgba(0 ,168 , 80 , .4);
+    color : rgba(0 ,168 , 80 , .6);;
+    background-color : #fff;
+}
+#profile-camera-icon{
+    display: inline-block;
+    color : inherit;
+}
+#profile-image-span{
+    position: relative;
+    left : 3px;
+}
+#profile-image-texts{
+    font-weight: normal;
+    position: relative;
+    top : -10px;
+
+}
+@media only screen and (min-width : 991px) {
+
+    #profile-image-label {
+        position: relative;
+        left : 18px;
+    }
+}
+.form-step-1.hideable-forms{
+    display: block;
+}
+#seller-information-submit-button , #ad-information-submit-button{
+    float: right;
+    background-color: #21C1A4;
+    border-radius: 3px;
+    border : 1px solid #21C1a4;
+    position: relative;
+}
+
+#seller-information-submit-button:hover , #ad-information-submit-button:hover{
+    color : #fff;
+    padding:0px 5px;
+
+}
+.back-buttons{
+    background-color : #000;
+    border : 1px solid #000;
+    border-radius: 4px;
+    float: left;
+}
+
+
+.buttons-containers{
+    margin-top : 40px;
+    position: relative;
+    margin-bottom: 12px;
+    top : -10px;
+}
+.next-step-buttons{
+    width : 80px;
+    height : 26px;
+}
+
+.button-icons-texts{
+    margin-right : 10px;
+}
+#new-signup-button{
+    width : 90px;
+}
+.back-icon-texts{
+    left : 5px;
+    position: relative;
+}
+.back-buttons{
+    height : 25px;
+    width: 80px;
+}
+@media only screen and (max-width : 991px) {
+    #ad-steps-container{
+
+        margin-bottom : 25px;
+
+    }
+}
+#ad-steps-container{
+    position: relative;
+    margin-bottom : 20px;
+    top : -20px;
+}
+.alerts {
+    position: relative;
+    top : -20px;
+
+}
+.alerts {
+    position: relative;
+    top : -20px;
+
+}
+.btn.change-image-buttons{
+    border : 1px solid rgba(0 , 0 , 0 , .1);
+    background-color : lightgrey;
+    top : 20px;
+    position: relative;
+    color : rgba(255 , 255 , 235 , .9);
+    display: none;
+
+}
+
+#login-buttons-container , #login-button{
+    position: relative;
+    left : -10px;
+}
+.contact-errors{
+    color : tomato;
+    opacity: .5;
+    font-weight: normal;
+}
+.alerts {
+    display: none;
+}
+.contact-errors{
+    box-sizing: revert;
+}
+.form-control.contact-inputs , #contact-select-school , #contact-primary-phone , #contact-secondary-phone , #account-username , #contact-fullname , #contact-email ,#contact-select-state{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color : inherit;
+    padding-left : 0px;
+    border-bottom : 1px  solid lightgrey;
+}
+#profile-upload-progress-percent {
+    top : -2px;
+    left : 3px;
+    position: relative;
+}
+@media only screen and (max-width : 991px) {
+    #ad-steps-container{
+
+        margin-bottom : 25px;
+
+    }
+    #profile-upload-progress{
+        width : 100%;
+
+    }
+    #profile-upload-progress-percent {
+        top : 5px;
+        left : 3px;
+        position: relative;
+    }
+
+    .alerts {
+        top : -35px;
+    }
+}
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 250px;
+    height: 20px;
+}
+
+.profile-upload-progress {
+    display : none;
+}
+#next-account-loading-icon{
+    display: none;
+}
+#login-button{
+    left : 4px;
+}
+#post-ad-title{
+    color : rgb(111, 111, 111);
+}
+
+.form-control.ad-post-inputs:focus{
+    border : 1px solid rgb(140, 195, 105 , .5);
+    box-shadow: 1px 1px 1px 1px rgba(120 , 120 , 0.6);
+}
+#contact-for-price-label{
+    font-size: 13px;
+}
+@media only screen and (min-width:992px){
+    .main-upload-section{
+        top : -180px;
+    }
+}
+#ad-clear-fields{
+    width : 100px;
+    height : 27px;
+
+    display: inline-block;
+
+    float: right;
+    top: -50px;
+    position: relative;
+    color : rgb(112, 185, 63);
+    background-color :#FFF;
+    border : 2px solid rgb(112, 185, 63);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+}
+#ad-clear-fields:hover {
+    background-color : #f5f5f5;
+}
+.form-step-3 , .form-step-2{
+    background-color: #fff;
+}
+.buttons-containers.ad-post-buttons-next-container{
+    top : 0px;
+}
+#ad-information-submit-button{
+    float: right;
+
+
+}
+#progress-bar{
+    width: 334px;
+    left : 184px;
+    border-radius: 5px !important;;
+}
+#progress-bar-inside{
+    border-radius: 4px;
+
+}
+
+@media only screen and (max-width:992px){
+    .buttons-containers.ad-post-buttons-next-container{
+        top : 9px;
+    }
+    #progress-bar{
+        width : 100%;
+    }
+
+}
+
+
+
+#ad-information-submit-button{
+    width : 95px;
+}
+
+.post-ad-errors{
+    position: absolute;
+    color : tomato !important;
+}
+#post-ad-amount-error{
+    position: relative !important;
+    top: 10px;
+
+
+}.post-ad-progress{
+     text-align: center;
+ }
+#progress-reader{
+    font-size: 8px !important;
+    position: relative;
+    top : -20px;
+    font-weight: bolder !important;;
+    vertical-align: middle;
+    z-index: 2;
+}
+#progress-bar{
+    border : 1px solid skyblue !important;
+}
+#progress-bar-inside{
+
+    background-color : skyblue!important;
+}
+.post-ad-progress{
+    height : 20px !important;
+
+}
+
+@media only screen and (max-width:992px){
+    #progress-bar{
+        left : 0px;
+    }
+}
