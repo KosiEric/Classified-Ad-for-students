@@ -102,7 +102,7 @@ if(isset($profile) and !empty($profile) and $profile["email_verified"] == "0") {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"><img class="img-responsive" src="<?php echo SITE_CONFIGURATIONS['IMG_FOLDER'].'logo-big.png'; ?>" width = "150" height="150" alt="<?php echo $home_page_site_name; ?> Logo" id="logo-image"/></a>
+                <a class="navbar-brand" href="/"><img class="img-responsive" src="<?php echo SITE_CONFIGURATIONS['IMG_FOLDER'].'main-logo.png'; ?>" width = "150" height="150" alt="<?php echo $home_page_site_name; ?> Logo" id="logo-image"/></a>
             </div><!-- /navbar-header -->
 
             <div class="navbar-right">
