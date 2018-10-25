@@ -274,12 +274,12 @@ a.footer-links:hover{
     color : #1e3948;
 }
 #logo-image{
-    top : -8px;
+    top : -3px;
     position: relative;
 }
 @media only screen and (max-width : 768px){
     #logo-image{
-        top : -8px;
+        top : -2px;
         position: relative;
     }
 }
