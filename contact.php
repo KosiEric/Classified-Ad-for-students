@@ -108,7 +108,7 @@ $include_bootstrap_js = false;
 
         <span class = "contact-text">To contact us by e-mail for non-support requests:
 
-    <span id = "support-email">Support@Snoott.com</span>
+    <span id = "support-email">Support@Gidimi.com</span>
             Or through social networks above <span id = "contact-smiley">&#9786;</span>
 </span>
     </div>

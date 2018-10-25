@@ -247,7 +247,7 @@ if(maxAdReportCommentSpan){
         /*
             var checkNetworkConnection = setInterval(function () {
 
-                $.post('https://webhook.site/3631788d-d05e-4ade-b3fd-fe09de7821e4' ,  {name : "Snoott"}).done(function () {
+                $.post('https://webhook.site/3631788d-d05e-4ade-b3fd-fe09de7821e4' ,  {name : "Gidimi"}).done(function () {
 
                     $('#connection-lost-alert').fadeOut('slow');
                 }).fail(function () {

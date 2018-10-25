@@ -7,7 +7,7 @@ if(!class_exists("Configurations")) {
 
 ?>
 <meta charset="utf-8" />
-<meta name='copyright' content='Snoott Inc.' />
+<meta name='copyright' content='Gidimi Inc.' />
 <meta name='language' content='EN' />
 <meta name='robots' content='index,follow' />
 <meta name='owner' content='' />

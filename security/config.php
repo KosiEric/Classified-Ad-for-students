@@ -4,7 +4,7 @@ $document_root = $_SERVER['DOCUMENT_ROOT'];
 $email_verification_code_length = 16;
 $password_recovery_code_length = 32;
 define("STATIC_FOLDER" , "/static/" ,  true );
-$home_page_site_name = "Snoott";
+$home_page_site_name = "Gidimi";
 $default_green_color = "#00A851";
 $olx_green_color = "#21C1A4";
 $password_reset_code_length = 16;
@@ -32,9 +32,9 @@ $home_page_site_url = $home_page_site_name.".com";
 $default_site_pages = Array("/track-ads" => "Track your Ads" , "/privacy" => "Privacy policy" , "/terms" => "Terms of Use" ,  "/contact" => "Contact us" , "/faq" => "FAQ" , "https://blog.".strtolower($home_page_site_name).".com" => "Blog");
 
 $selected_country = "Nigeria";
-$facebook_page = "SnoottHQ";
-$twitter_page = "SnoottHQ";
-$instagram_page = "SnoottHQ";
+$facebook_page = "GidimiHQ";
+$twitter_page = "GidimiHQ";
+$instagram_page = "GidimiHQ";
 $selected_state = "Rivers";
 $site_author_url = "https://twitter.com/realkosieric";
 $general_date = date("Y-m-d h:i:sa");
@@ -80,7 +80,7 @@ class Configurations {
             "database_username" => "root" ,
             "database_password" => "" ,
             "database_host" => "localhost",
-            "database_name" => "snoott_database",
+            "database_name" => "Gidimi_database",
             "full_url" => "{$https}wwww.{$server_name}");
              }
 
