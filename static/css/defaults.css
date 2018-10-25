@@ -549,3 +549,6 @@ span.ad-list-description{
     text-align: center !important;
 }
 
+body {
+    overflow-y: hidden !important;
+}
