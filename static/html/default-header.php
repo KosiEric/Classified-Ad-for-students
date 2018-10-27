@@ -78,7 +78,7 @@ if(isset($profile) and !empty($profile) and $profile["email_verified"] == "0") {
                     <div class="col-sm-6">
                         <div class="user-section">
                             <ul class="list-line">
-                                <li><a href="#" id = "country-text"> <img alt = "<?php echo $selected_country; ?> flag" width="19" height="17" src="<?php echo  SITE_CONFIGURATIONS['COUNTRY_FLAGS_FOLDER'].strtolower($selected_country).'.png'?>" /><span id = "country-text-container"> <?php echo $selected_country; ?></span></a></li>
+                                <li><a href="#" id = "country-text"> <img alt = "<?php echo $selected_country; ?> flag" width="19" height="17" src="<?php echo  SITE_CONFIGURATIONS['COUNTRY_FLAGS_FOLDER'].ucfirst($selected_country).'.png'?>" /><span id = "country-text-container"> <?php echo $selected_country; ?></span></a></li>
                                 <li><a href="/track-ads"><i class="fa fa-user" aria-hidden="true"></i> Track your ads</a></li>
                             </ul>
                             <a href="<?php if(getCurrentPHPFileName() != 'post-ad') {
